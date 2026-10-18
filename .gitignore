@@ -1,0 +1,13 @@
+# credentials: never commit these
+*.key.json
+service-account*.json
+client_secret*.json
+token*.json
+.env
+
+# per-event raw API cache (hundreds of files, regenerable)
+luma_scraper/data/cache/
+
+__pycache__/
+*.pyc
+.venv/
