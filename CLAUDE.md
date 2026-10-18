@@ -49,9 +49,16 @@ luma_scraper/
 ## Session history
 
 - 2026-10-18: first build. Scraped 362 events for the October 2026 Singapore
-  edition. The Claude session had Google Drive access but no Google Sheets
-  connector, so the sheet write was left for `write_to_sheet.py` to run with
-  the user's own credentials (or a later session with the Sheets connector on).
+  edition (3 to 11 Oct; 359 on Luma, 3 external), zero fetch errors. Result:
+  1,120 host entries, 864 unique host names; 862 hosts have an X handle, 823
+  a LinkedIn URL, 486 a website; 214 events were published by a named
+  organisation calendar (the rest by personal calendars). Output is in
+  `luma_scraper/data/organisers.json` and `luma_scraper/data/export/`.
+  The Claude session had Google Drive access but no Google Sheets connector,
+  so the sheet write was left for `write_to_sheet.py` to run with the user's
+  own credentials, or for a later session with the Sheets connector enabled.
+  Next step when that is available: run step 3b (or write the two tabs via
+  the connector from `data/export/rows.json`).
 
 ## Conventions
 
