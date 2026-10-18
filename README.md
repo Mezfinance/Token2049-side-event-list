@@ -13,6 +13,7 @@ then pushes the result into an existing Google Sheet as two new tabs.
 | 2. Organisers | `luma_scraper/scrape_organisers.py` | `data/events.json` | `data/organisers.json` (+ `data/cache/` raw API responses) |
 | 3a. Flatten | `luma_scraper/export_rows.py` | `data/organisers.json` | `data/export/events.csv`, `hosts.csv`, `rows.json` |
 | 3b. Sheet | `luma_scraper/write_to_sheet.py` | `data/export/rows.json` | tabs "Luma Organisers" and "Luma Hosts" in the Google Sheet |
+| 3c. XLSX | `luma_scraper/build_xlsx.py` | `data/export/rows.json` + `assets/token2049_week_banner.png` | `TOKEN2049_2026_Luma_Organisers.xlsx`, `TOKEN2049_2026_Luma_Hosts.xlsx` |
 
 ```bash
 cd luma_scraper
@@ -20,8 +21,14 @@ pip install -r requirements.txt
 python3 fetch_events.py --year 2026 --out data/events.json
 python3 scrape_organisers.py --events data/events.json --out data/organisers.json
 python3 export_rows.py --in data/organisers.json --out-dir data/export
+python3 build_xlsx.py --rows data/export/rows.json --out-dir data/export --fetched 2026-10-18
 python3 write_to_sheet.py --spreadsheet-id <sheet id> --service-account key.json
 ```
+
+The XLSX files carry the official TOKEN2049 Week banner (taken from the
+official side-events Google Sheet) and use that sheet's palette: navy header
+row, light-blue date column, hyperlinks on every link column, filters and a
+frozen header.
 
 Steps 1 to 3a need no credentials. Step 2 caches every raw event response in
 `data/cache/`, so re-running it is instant and an interrupted run resumes.

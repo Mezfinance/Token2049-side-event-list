@@ -22,9 +22,16 @@ luma_scraper/
   scrape_organisers.py   step 2: per-event API -> data/organisers.json (cached in data/cache/)
   export_rows.py         step 3a: flatten to CSV/JSON rows -> data/export/
   write_to_sheet.py      step 3b: gspread upload into two tabs of the sheet
+  build_xlsx.py          step 3c: styled XLSX files with the TOKEN2049 Week banner
+  assets/                token2049_week_banner.png (2048x228, extracted from the official sheet)
   requirements.txt
   data/                  committed snapshot of the last run (cache/ is git-ignored)
 ```
+
+Styling used by `build_xlsx.py`, copied from the official sheet: header fill
+`#073763` with white bold Calibri 12, date column fill `#6FA8DC`, pale blue
+`#CFE2F3` for sub-headers. Banner sits in rows 1-3, title row 4, source note
+row 5, header row 6, data from row 7, header frozen, autofilter on.
 
 ## Key facts discovered while building it
 
@@ -59,6 +66,10 @@ luma_scraper/
   own credentials, or for a later session with the Sheets connector enabled.
   Next step when that is available: run step 3b (or write the two tabs via
   the connector from `data/export/rows.json`).
+- 2026-10-18 (later): added `build_xlsx.py` and the banner asset on request,
+  producing the two styled XLSX files in `luma_scraper/data/export/`.
+  Verified by rendering page 1 of each through LibreOffice. No formulas in
+  these workbooks, so no recalculation step is needed.
 
 ## Conventions
 
