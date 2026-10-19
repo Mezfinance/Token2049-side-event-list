@@ -102,6 +102,16 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   meaning the X developer App is not attached to a Project. Fix is on the X
   developer portal (create a Project, add the App to it, regenerate the
   bearer token, update the secret). Then run step 4b.
+- 2026-10-19 (MCP): user's X access is "MCP only". X's hosted MCP server at
+  `https://api.x.com/mcp` (Streamable HTTP, JSON-RPC over POST, replies as
+  SSE `data:` lines, no session id needed) accepts the proxy-injected bearer
+  token: `initialize` and `tools/list` work (71 tools, incl.
+  `search_posts_all` = full-archive search, `get_users_posts` = timeline,
+  `get_users_by_usernames`). But every `tools/call` returns the same
+  `client-not-enrolled` error as REST, because the MCP server is a gateway to
+  the same v2 API: the App must sit in a Project enrolled on a pay-per-use (or
+  paid) package in a Production environment. Once enrolled, both REST scripts
+  work unchanged; MCP is an alternative transport, not a different entitlement.
 
 ## Conventions
 
