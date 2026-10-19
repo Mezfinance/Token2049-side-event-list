@@ -125,6 +125,33 @@ def fetch_timeline(session, user_id: str, start: datetime, end: datetime, max_pa
     return tweets
 
 
+def event_terms(event: dict) -> list[str]:
+    """Distinctive words of the event name, minus words that are part of the
+    organiser's own name (every "The Best Event: X" post would otherwise match on "best")."""
+    org_words: set[str] = set()
+    names = [h.get("name") or "" for h in event.get("hosts") or []]
+    names.append(((event.get("calendar") or {}).get("name")) or "")
+    for n in names:
+        org_words.update(w.lower().strip(".'&-") for w in re.findall(r"[A-Za-z0-9][A-Za-z0-9'.&-]+", n))
+    terms = [t for t in keywords(event.get("name") or "", max_terms=8) if t not in org_words]
+    return terms or keywords(event.get("name") or "", max_terms=6)
+
+
+def check_balance(session: requests.Session) -> float | None:
+    """Prepaid credit balance via the hosted MCP endpoint (pay-per-use accounts)."""
+    try:
+        r = session.post(f"{API}/mcp", json={"jsonrpc": "2.0", "id": 1, "method": "tools/call",
+                                            "params": {"name": "get_usage_credits", "arguments": {}}},
+                         headers={"Accept": "application/json, text/event-stream"}, timeout=30)
+        for line in r.text.splitlines():
+            if line.startswith("data:"):
+                payload = json.loads(line[5:])
+                return float(json.loads(payload["result"]["content"][0]["text"])["data"]["total_balance"])
+    except Exception as exc:  # balance is advisory; never abort the run on a lookup failure
+        print(f"  balance check failed: {exc}", file=sys.stderr)
+    return None
+
+
 def score(tweet: dict, event: dict, terms: list[str]) -> tuple[int, bool, bool]:
     text = (tweet.get("text") or "").lower()
     overlap = sum(1 for t in terms if t in text)
@@ -144,6 +171,8 @@ def main() -> None:
     ap.add_argument("--delay", type=float, default=1.0)
     ap.add_argument("--limit", type=int, default=0, help="only the first N handles (testing)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--stop-below-balance", type=float, default=0.0,
+                    help="stop (keeping the cache) when prepaid credits fall below this amount")
     args = ap.parse_args()
 
     token = os.environ.get("X_BEARER_TOKEN")
@@ -197,7 +226,16 @@ def main() -> None:
             "handles_checked": [], "posts": [],
         }
 
+    if args.stop_below_balance:
+        print(f"  prepaid balance at start: {check_balance(s)}", file=sys.stderr)
+
     for i, h in enumerate(handles, 1):
+        if args.stop_below_balance and i % 10 == 0:
+            bal = check_balance(s)
+            if bal is not None and bal < args.stop_below_balance:
+                print(f"  balance {bal:.2f} below floor {args.stop_below_balance}; stopping after {i - 1} handles",
+                      file=sys.stderr)
+                break
         u = users.get(h) or {}
         if not u.get("id"):
             print(f"[{i}/{len(handles)}] @{h}: not found on X", file=sys.stderr)
@@ -208,7 +246,7 @@ def main() -> None:
         for e in by_handle[h]:
             key = e.get("event_api_id") or e.get("calendar_entry_id")
             per_event[key]["handles_checked"].append(h)
-            terms = keywords(e.get("name") or "", max_terms=6)
+            terms = event_terms(e)
             ev_start = parse_ts(e["start_at"])
             lo, hi = ev_start - timedelta(days=args.days_before), ev_start + timedelta(days=args.days_after)
             for t in tweets:
