@@ -18,13 +18,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 EVENT_COLUMNS = [
-    "Date", "Start", "End", "Event", "Luma link", "Platform", "Tags",
+    "Date", "Start", "End", "Event", "Venue", "Venue status", "Luma link", "Platform", "Tags",
     "Organising calendar", "Calendar website", "Calendar X", "Calendar LinkedIn",
     "Hosts", "Host bios", "Host websites", "Host X handles", "Host LinkedIn",
     "Host Instagram", "Host count", "Guest count", "City", "Country", "Event ID",
 ]
 HOST_COLUMNS = [
-    "Date", "Event", "Luma link", "Host name", "Host username", "Host bio",
+    "Date", "Event", "Venue", "Luma link", "Host name", "Host username", "Host bio",
     "Host website", "Host X", "Host LinkedIn", "Host Instagram", "Host TikTok",
     "Host YouTube", "Verified", "Organising calendar", "Calendar website", "Event ID",
 ]
@@ -62,6 +62,28 @@ def joined(items, sep="; "):
     return sep.join(i for i in items if i)
 
 
+VENUE_STATUS = {
+    "shown": "Public",
+    "obfuscated": "Hidden until registered",
+    None: "Not set",
+}
+
+
+def venue(r: dict) -> str:
+    """Street address when Luma shows it; blank when hidden or missing."""
+    addr = r.get("address") or ""
+    # an obfuscated event still reports "Singapore" as its address; treat that as no venue
+    if r.get("venue_visibility") != "shown" and addr.strip().lower() in ("", "singapore"):
+        return ""
+    return addr
+
+
+def venue_status(r: dict) -> str:
+    if r.get("platform") == "external":
+        return "External listing"
+    return VENUE_STATUS.get(r.get("venue_visibility"), "Not set")
+
+
 def event_row(r: dict) -> list:
     hosts = r.get("hosts") or []
     cal = r.get("calendar") or {}
@@ -71,6 +93,8 @@ def event_row(r: dict) -> list:
         local(r.get("start_at"), tz, "%H:%M"),
         local(r.get("end_at"), tz, "%H:%M"),
         r.get("name") or "",
+        venue(r),
+        venue_status(r),
         r.get("url") or "",
         r.get("platform") or "luma",
         joined(r.get("tags") or [], ", "),
@@ -100,6 +124,7 @@ def host_rows(r: dict) -> list[list]:
         rows.append([
             local(r.get("start_at"), tz, "%a %d %b %Y"),
             r.get("name") or "",
+            venue(r),
             r.get("url") or "",
             h.get("name") or "",
             h.get("username") or "",

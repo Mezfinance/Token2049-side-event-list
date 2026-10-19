@@ -24,6 +24,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-WHiCZsqGECSN7nM",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -103,6 +104,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YL6KpUrRu4CGVus",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -187,6 +189,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-F6tYBRLjT5mDEU0",
   "address": "Abriza Rooftop Restaurant, 32 Tras St, Level 4 ST Signature, Singapore 078972",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -364,6 +367,7 @@
   "calendar": null,
   "description": "",
   "address": null,
+  "venue_visibility": null,
   "categories": []
  },
  {
@@ -393,6 +397,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-M3FPmamE8VhEllB",
   "address": "National Gallery Singapore, Singapore 178957",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -458,6 +463,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-LI761OV18NCcul7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -550,6 +556,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-74nllBgJJFrnDdQ",
   "address": "67 Ayer Rajah Cres., Singapore 139950",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -655,6 +662,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-fGZaeLsclU6JMCf",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -718,6 +726,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-4GappJHse8MqfYd",
   "address": "One Marina Boulevard, 1 Marina Blvd, Singapore 018989",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -811,6 +820,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-yiUOy53vH7rEeED",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -903,6 +913,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XUsiUTKEWJQckqX",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -974,6 +985,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-mjAftmoYDq7B5NZ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1177,6 +1189,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1QNFYg0hnersq5F",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1271,6 +1284,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lnhEJWt2Bdk0cmW",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1436,6 +1450,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Iqxz2ufN55QDlyO",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1568,6 +1583,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8IVgf5aA4A8sgZR",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1630,6 +1646,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-xqbG0bdiznK8ohR",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1691,6 +1708,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hlj2M5GpWV1P97k",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-uOYASOmzR0HvOki",
@@ -1764,6 +1782,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Ht5O615EPEuGfpz",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -1826,6 +1845,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-51wOGjD73WT1a5Q",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-HoeQgnIqUvvUgT1",
@@ -1887,6 +1907,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-z1rxKC5v84KNljB",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -1951,6 +1972,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-vgZVG0zy0Vpc3Kg",
   "address": "Capitol Theatre, 17 Stamford Rd, Singapore 178907",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -2041,6 +2063,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-KkOv2L8bJrWs8vr",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-MA0JuQEAvDsJioR",
@@ -2116,6 +2139,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bGWgAlfUqt19gq7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Fitness",
@@ -2197,6 +2221,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-tkFuyu8BIzrEUIV",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Fitness",
@@ -2322,6 +2347,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-IGRAp1zhFSPVpeU",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -2445,6 +2471,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cLpIcq4MIfm8jHk",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -2567,6 +2594,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-U8GTBMMd55Dqssz",
   "address": "café nesuto @ Marina Bay Sands, 2 Bayfront Avenue, The Shoppes, at, #01-87 Marina Bay Sands, Singapore 018972",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -2699,6 +2727,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-RBEDxNYQTuEwIbm",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -2772,6 +2801,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-SowgDzyegYReFYH",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -2837,6 +2867,7 @@
   "calendar": null,
   "description": "",
   "address": null,
+  "venue_visibility": null,
   "categories": []
  },
  {
@@ -2867,6 +2898,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-fPYLSOuT8iZ9pgf",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-xty3GAcA8bXSCIN",
@@ -2926,6 +2958,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-IGztSDDXceq3tZI",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -2991,6 +3024,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ZCBBee6GdXTsBeZ",
   "address": "The Ritz-Carlton, Millenia Singapore, 7 Raffles Ave., Marina Bay, Singapore 039799",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -3080,6 +3114,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-t6VADPS0jgkxUqX",
   "address": "Alpha Vitality, 1557 Keppel Rd, #01-01, Singapore 089066",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto",
    "Fitness"
@@ -3167,6 +3202,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-QsmjOAGgXEntWEW",
   "address": "The Westin Singapore, 12 Marina Vw, Asia Square Tower 2, Singapore 018961",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -3590,6 +3626,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-aGGVncXtoG5Ryje",
   "address": "The Westin Singapore, 12 Marina Vw, Asia Square Tower 2, Singapore 018961",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -3988,6 +4025,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2bmdPRcv3J5m1I5",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-dXOHTyZQXqvYHu5",
@@ -4052,6 +4090,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1DqZn1IV88ELEgK",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -4184,6 +4223,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lROqsKz6ABcvpIV",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4247,6 +4287,7 @@
   "calendar": null,
   "description": "",
   "address": null,
+  "venue_visibility": null,
   "categories": []
  },
  {
@@ -4276,6 +4317,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-es8oce2uETIwaiY",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4341,6 +4383,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-r2Mm8rJDbMu9k1S",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4446,6 +4489,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2psElPBhbNWp7KC",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4511,6 +4555,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-CuBqqXAPJTj9BgU",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4616,6 +4661,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-IUB3WGqob4BF1Ss",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -4681,6 +4727,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-EtD4jmg0nQl6sFL",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4771,6 +4818,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-FMgPTiAfJKFD0Mo",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -4851,6 +4899,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-vgMkvMtis7lDGiI",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-t4bnUM3CQS2AOHX",
@@ -4969,6 +5018,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-SurrMPq7KItfuyZ",
   "address": "Sentosa Golf Club, 27 Bukit Manis Rd, Singapore 099892",
+  "venue_visibility": "shown",
   "categories": [
    "Fitness"
   ],
@@ -5057,6 +5107,7 @@
   "list_hosts": [],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-If1FTM29pHaaTOP",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -5104,6 +5155,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YLmC9gJkFAvWMAQ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Fitness"
   ],
@@ -5185,6 +5237,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-xEbD9GpZIquiyzM",
   "address": "Conrad Singapore Marina Bay, 2 Temasek Blvd, Singapore 038982",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -5289,6 +5342,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-UiwJpYm0Y5afi75",
   "address": "Raffles Singapore, 1 Beach Rd, Singapore 189673",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -5351,6 +5405,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-qZePXmFRhjLBjB2",
   "address": "The Fullerton Hotel Singapore, 1 Fullerton Sq, Singapore 049178",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -5426,6 +5481,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-B5mJHVEwxexR70t",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -5691,6 +5747,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-jiGJMBdTA2yLQEN",
   "address": "The Exchange (Singapore Land Tower), 50 Raffles Pl, Level 4 Singapore Land Tower, Singapore 048623",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -5812,6 +5869,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-DYWVoF722hgfFEo",
   "address": "Guoco Midtown Network Hub, 126 Beach Rd, Singapore 189773",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -5921,6 +5979,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1291c5ByLSJbFeA",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -6013,6 +6072,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-esywU88BBY7HfEx",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Fitness",
    "Wellness"
@@ -6106,6 +6166,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-VWA51AyjG3qdtpb",
   "address": "1 Orchard Rd, #2f, Singapore 238824",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -6197,6 +6258,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-HvT2PQbFrXtHmvK",
   "address": "Estonian Business Hub - Singapore, 18 Robinson Rd, #21-03, Singapore 048547",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -6267,6 +6329,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-G0W9nyZI9H2mWbH",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-3Wnv1m4HnkZU5F0",
@@ -6427,6 +6490,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-sWf8I8fFHwo76mr",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -6503,6 +6567,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YUPq5A3ohjPREcv",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -6565,6 +6630,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hiGUpzhc8Cu0nhw",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -6656,6 +6722,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-b6043GGltQOzJWN",
   "address": "The Masons Table, 23A Coleman St, Singapore 179806",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -6746,6 +6813,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lt0WbNw6gENsUVZ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -6811,6 +6879,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-9aJwTLELRAXu4gg",
   "address": "Tahir Building, 140 Robinson Rd, Singapore 068907",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -6902,6 +6971,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XNB989H24p8fCto",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -6965,6 +7035,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6Es1pgQEhEEBR0h",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7046,6 +7117,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ueTNQNNHOJdvWOR",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7205,6 +7277,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-klPLzf7RhYE1q9O",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7267,6 +7340,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lA2ioAHylvNokhG",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7340,6 +7414,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-A7T6ka9Qii64GTS",
   "address": "ANTI:DOTE, 80 Bras Basah Rd, Level 1 Fairmont, Singapore 189560",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -7402,6 +7477,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8vHB3nvdcmjXQLC",
   "address": "Andaz Singapore, by Hyatt, 5 Fraser St, Singapore 189354",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-DTrDfVsDy5LcwUC",
@@ -7462,6 +7538,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-HOMwOkbvTryd73H",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7527,6 +7604,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ahq6EDmyQjCmF3B",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7632,6 +7710,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-EHa8GbEEbKTvH9o",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -7754,6 +7833,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wEsu7LfYPkPrxia",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -7874,6 +7954,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-r5Dp98TPJSfGwmx",
   "address": "The Spot - Singapore, 5 Straits View, #01-26/27 Marina One East Tower, Singapore 018935",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -7965,6 +8046,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XNWUe6lrUbzompQ",
   "address": "AP House Singapore, 1 Beach Rd, Singapore 189673",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -8056,6 +8138,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-FycQu9ya4W8AHKz",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -8117,6 +8200,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-kHl28FVBB2JKrGH",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Arts & Culture"
   ],
@@ -8179,6 +8263,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8mkOXUCJEsb8Te3",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -8244,6 +8329,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ncE9csMPaAbbOdY",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -8359,6 +8445,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YDpQDP2zxMnF1HJ",
   "address": "Play! Pickle (Serangoon), 756 Upper Serangoon Rd, #04-27, Singapore 534626",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -8425,6 +8512,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-nCzyAFiKUk3rGxW",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI"
   ],
@@ -8525,6 +8613,7 @@
   "list_hosts": [],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GD4nAGF87kABbU2",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -8580,6 +8669,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-CZ0L0RAbK7YMYIq",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -8770,6 +8860,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Qz80rjzgQpIRkDk",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-hGDgFJtPAmrAL5N",
@@ -8906,6 +8997,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-TmQ8W1Q2NBjIyLW",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9029,6 +9121,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bszCB6TlyD7ZplO",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9162,6 +9255,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-FkNDMDw8Ie1q8FD",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9252,6 +9346,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-I6VRfwP1G4x3Cbl",
   "address": "The Fullerton Hotel Singapore, 1 Fullerton Sq, Singapore 049178",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -9317,6 +9412,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-w61HdPlP6G8QrEl",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9436,6 +9532,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-15pJHHsA2rw2hU2",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9509,6 +9606,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-JjUXMQ1RqmE1osS",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9570,6 +9668,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ai6aT01yt1qXiQi",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9632,6 +9731,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Lv9mvgCW6zElvIy",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9708,6 +9808,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bAGQRM8xWJG13gQ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9772,6 +9873,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-scUKRIAV6k7XYGw",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -9871,6 +9973,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cdFGjoHECrRoJVA",
   "address": "Milli - Rooftop Dining & Bar | Club Lounge, 1 St Andrew's Rd, #05-02, #06-01 National Gallery Singapore, Singapore 178957",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -10062,6 +10165,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-mCiFMuwjBWBnKJ5",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -10167,6 +10271,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ymFbzrzDBQKtHfU",
   "address": "Gardens by the Bay, 18 Marina Gardens Dr, Singapore 018953",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -10290,6 +10395,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-dchGfEH7Gg5Zp9J",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -10413,6 +10519,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1I0nFlOjGHEOkSu",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -10558,6 +10665,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ZfriblasxGSoIbc",
   "address": "MO BAR, 5 Raffles Ave., Floor 3, Singapore 039797",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -10635,6 +10743,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6tXjIx5vEq00XKl",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -10729,6 +10838,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lGFJlsUdOWnsEXE",
   "address": "MERCI MARCEL TIONG BAHRU, 56 Eng Hoon St, #01-68, Singapore 160056",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -10835,6 +10945,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XmYZu9qMoaw8YxR",
   "address": "Marina Bay Sands Singapore, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -10932,6 +11043,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ZI1qGhusO7mAJFh",
   "address": "RASA Space, 9 Raffles Place #02-01, Tower, #1 Republic Plaza, Singapore 048619",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-kmjjotgD1G0bPaA",
@@ -11083,6 +11195,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-mpaLtnu1nhpG6nY",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -11256,6 +11369,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GB7hvu5VfQtbGUU",
   "address": "Kinki Restaurant + Bar - Japanese Fusion @ Customs House, 70, #02-02 Collyer Quay, Customs House, Singapore 049323",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -11319,6 +11433,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-dc1tzkHvTWkNYza",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-BPpVM0IogemO2cy",
@@ -11393,6 +11508,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-JvKunaH9B2IuawW",
   "address": "Vatos Kitchen & Bar, 36 Robinson Rd, #01-01 City House, Singapore 068877",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -11472,6 +11588,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-3Tu3joOpDOAUPL2",
   "address": "Satay Street @ Lau Pa Sat, Boon Tat St, Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -11562,6 +11679,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lkAEgTWumG2jrah",
   "address": "Fate by HaveFun (Cineleisure), 8 Grange Rd, #08-01 Cineleisure basement car park, Singapore 239695",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-zD9enA2kCxqoHYS",
@@ -11622,6 +11740,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-icR0VbRLRvvXJaw",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Running"
@@ -11684,6 +11803,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-k3eO3MOR9DuZbSz",
   "address": "Elgin Bridge, S Bridge Rd, Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Fitness",
    "Running"
@@ -11745,6 +11865,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-G5rhLHBc0R1dAz8",
   "address": "Marina Bay Sands Singapore, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -11806,6 +11927,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-uLXtgBDSMDwWlBh",
   "address": "Marina Bay Sands Singapore, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -11871,6 +11993,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-AkfGaK6VBp3JZfK",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -11960,6 +12083,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wca6MOhUjdjAydZ",
   "address": "Marina Bay Sands Singapore, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -12052,6 +12176,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-qAs0mjQhdnlBc6K",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -12143,6 +12268,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2Fub0wewlx5QvoG",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI"
   ],
@@ -12225,6 +12351,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-q2d3rNyeBNrqk1s",
   "address": "Foreword Coffee @ Esplanade Mall, 8 Raffles Ave., #03-02, Singapore 039802",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -12566,6 +12693,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Cf3L06AUQO60PG2",
   "address": "The Ice Bath Club - River Valley, 241 River Valley Rd, #01-01, Singapore 238298",
+  "venue_visibility": "shown",
   "categories": [
    "Wellness"
   ],
@@ -12656,6 +12784,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-3rVUpetDCFOMkW1",
   "address": "POUT Rooftop Cafe, 50 S Bridge Rd, Unit 06-00, Singapore 058682",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -12722,6 +12851,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GL42hXUIVhEkvSP",
   "address": "Brunetti Oro 6 Battery Road, 6 Battery Rd, Singapore 049909",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -12841,6 +12971,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-xXrOExH1UJ0fZH5",
   "address": "PS.Cafe Marina Bay Sands, 10 Bayfront Ave, B2-119-120A, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -12919,6 +13050,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Ds5nWsOeaPk8nFn",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -13025,6 +13157,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-jKMbgzexeP8GiPh",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -13117,6 +13250,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-jC6Fx0IMv1yakBN",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -13206,6 +13340,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-SCRHC3QWMR7vy4t",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -13270,6 +13405,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-v6gAAbi8NOqdP8U",
   "address": "The Hive Carpenter, 36, Carpenter Street, Boat Quay, Singapore River, Central Region, Singapore, 059915, Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -13346,6 +13482,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-oMvET072Sus3KbF",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -13422,6 +13559,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-SxZzp7K2Jsnbh8z",
   "address": "Marina Bay Sands Singapore, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -13485,6 +13623,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-HRMRBDhmgm1vpoG",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI"
   ],
@@ -13547,6 +13686,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-AxvuEgt2SBXjO1I",
   "address": "Mondo, 92A Amoy St, Singapore 069911",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto",
    "Food & Drink"
@@ -13625,6 +13765,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-pwT49AgOl5iGs88",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -13703,6 +13844,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-nvvnt9hAOqV8h3t",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -13765,6 +13907,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cp7WVEPB7iUm92l",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -13828,6 +13971,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-RreF4EjyJVHW1MO",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -13890,6 +14034,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-4t1SjpOXvVvgcS1",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-nrqTmqHcPIrtXrc",
@@ -13952,6 +14097,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Ygx0SasoeeVvGuU",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -14059,6 +14205,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8sgXzCVZCeZl0vx",
   "address": "50 S Bridge Rd, Singapore 058682",
+  "venue_visibility": "shown",
   "categories": [
    "AI"
   ],
@@ -14156,6 +14303,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ROo9vYzQhg7r2yN",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -14333,6 +14481,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-SBK8LFWdXibBTnM",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI"
   ],
@@ -14439,6 +14588,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-5SDj8waYYZ3uRkg",
   "address": "Paya Lebar Quarter - PLQ 3, 2 Tanjong Katong Rd, Singapore 437161",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -14518,6 +14668,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-sR7AGUozs6ISaxg",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -14610,6 +14761,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ty04f7nxslNZtHV",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-Uz3vIeMF85Fuiwb",
@@ -14684,6 +14836,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-9jK0XFr7dNWGYB7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -14747,6 +14900,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-3SbvtX3C28sUGCK",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -14808,6 +14962,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-A6AhmF021f9HWJs",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -14871,6 +15026,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-rNQE894TJApNgnb",
   "address": "Singapore 018916",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -14951,6 +15107,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-aSICrURyA98d7sd",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15057,6 +15214,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-f3fsyDYkRJ6Ft0a",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15132,6 +15290,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-JfYnmqzkLOPbcgB",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15198,6 +15357,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-IR9oS0NdPsHIjhj",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15330,6 +15490,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ZLf9lBj5M4B6SNJ",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -15396,6 +15557,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-C6abJTMTcePBffl",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15520,6 +15682,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XEwL2ZQxOZw7UKP",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15665,6 +15828,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wiBFcaMSpD5dNX3",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15728,6 +15892,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-NgqCgutDTgSTqsy",
   "address": "Suntec City, 3 Temasek Blvd, Singapore 038983",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -15789,6 +15954,7 @@
   "list_hosts": [],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-yIpjv4DqDCOeEfE",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15837,6 +16003,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-nVBhh5hvxGcbsID",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -15927,6 +16094,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-iZIeoXp82UAz2YW",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-sc1HfGuTnEwmNZA",
@@ -15998,6 +16166,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-lQQx4fhdqAKlZki",
   "address": "Wearnes Singapore, 45 Leng Kee Rd, Singapore 159103",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -16059,6 +16228,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-C4yIcTMlVkY4xxZ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -16123,6 +16293,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-x0OeRiSMOqKPzc3",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -16215,6 +16386,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-AHgmNHm4k72cVdI",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -16305,6 +16477,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wahueiUtQocCRvB",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-N3nHWPXsuJgxHO7",
@@ -16365,6 +16538,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-G5ZEYn3MFv30EPX",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -16440,6 +16614,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-OyQyPiD6p5ycG1I",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -16532,6 +16707,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-C8tRdqaYPd8Wfbw",
   "address": "The Riverhouse Singapore, 3A River Valley Rd, #01- 02, Singapore 179020",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -16653,6 +16829,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hPwBmPz9DtNEHcV",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -16745,6 +16922,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-dxADGfbez16mjnE",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-W50Yu0xJir8ajxH",
@@ -16837,6 +17015,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2oxGwMQGu6nGh48",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Food & Drink"
@@ -16958,6 +17137,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-yVvzhRKJfiM98cK",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-6Xflo8cNBtlBr0K",
@@ -17052,6 +17232,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-UtC4gkKlD3EKNyZ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -17200,6 +17381,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-VbjshLmIM5ACvsn",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -17289,6 +17471,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-BwOJUqwll59WiFc",
   "address": "2 Orchard Link, Singapore 237978",
+  "venue_visibility": "shown",
   "categories": [
    "Tech"
   ],
@@ -17353,6 +17536,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wvo8WiyhLX1ZUOp",
   "address": "Jypsy One Fullerton, 1 Fullerton Rd, #01-02/03, Singapore 049213",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -17444,6 +17628,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cv1PnYvXYG1jDvo",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -17508,6 +17693,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wMVhDE0v1YtQkeZ",
   "address": "Blu Jaz, Clarke Quay Central, 6 Eu Tong Sen St, #01-09 In Between Mookata & Tsui Wah, Singapore 059817",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -17628,6 +17814,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-9PfPGCQNN9dvVlc",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -17732,6 +17919,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-N3kz4Z6paHG8OD4",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -17811,6 +17999,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-9Qdgi2DAWJGiToO",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -17889,6 +18078,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-toojb9O80uh0l10",
   "address": "Cygnet, 35 Robinson Rd, Singapore 068876",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -17981,6 +18171,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-BjNTZDBANAPAjYl",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -18071,6 +18262,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-yHyNzLHecx9lJeC",
   "address": "National Gallery Singapore, Singapore 178957",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -18133,6 +18325,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GVynIt5ZJcKjaCG",
   "address": "Echo Live Party Singapore, 3 TEMASEK BOULEVARD #03-319 SUNTEC CITY, MALL, LEVEL 3 SUNTEC TOWER 1, Singapore 038983",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -18214,6 +18407,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-myWauQVbUVvIAbD",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -18350,6 +18544,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ugG45AgUzqewke5",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Running"
@@ -18478,6 +18673,7 @@
   "list_hosts": [],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2o42MQeXnFaoC05",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-NICUWhrUbXc2hFA",
@@ -18523,6 +18719,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cklGgJfG3yivcfF",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -18599,6 +18796,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-WOLVIOpGwvV1yRA",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -18664,6 +18862,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hGLwDcKHJLXGjgp",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -18783,6 +18982,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-zhNTH1dxGhVXcGE",
   "address": "LAVO Italian Restaurant And Rooftop Bar, 10 Bayfront Avenue, Marina Bay Sands, Hotel, Level 57 Tower 1, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -18872,6 +19072,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6Tvm3t7QCrtvkgX",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-6CXIZ4A461ud56f",
@@ -18934,6 +19135,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-akDCfULmtdYHvAh",
   "address": "OGBC Innovation Hub, PLUS, 20 Cecil St, #04-07, Singapore 049705",
+  "venue_visibility": "shown",
   "categories": [
    "AI"
   ],
@@ -19011,6 +19213,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-d1RGKYQGL43kY5R",
   "address": "Flower Dome, 18 Marina Gardens Dr, Singapore 018953",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -19092,6 +19295,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ZX1aVX81rDmJ3iT",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -19200,6 +19404,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2TMi8q09wS0tylc",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -19348,6 +19553,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1xjigoMG7jKBT1o",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -19414,6 +19620,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bDMnqBnocgXAuri",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -19520,6 +19727,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-MQpVWkztvydv9wD",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -19628,6 +19836,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-eTG3bcFgfGf6th7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -19748,6 +19957,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Tu5nOFpxgB16iLQ",
   "address": "Fate by HaveFun (Cineleisure), 8 Grange Rd, #08-01, Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -19836,6 +20046,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-W0VqCD6ROGPDDvD",
   "address": "The NCO Club, 32 Beach Rd, Singapore 189764",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -19901,6 +20112,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-VtVUJyVqNz3nUSP",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -20007,6 +20219,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6kwsq9uruPIbqXb",
   "address": "Moon Rooftop Bar & Lounge Pte. Ltd., 70 Anson Rd, #27-01 Hub Synergy Point, Singapore 079905",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20124,6 +20337,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hCcc9CqKry8rqtM",
   "address": "Singapore Cricket Club, A Connaught Dr, Singapore 179681",
+  "venue_visibility": "shown",
   "categories": [
    "Tech"
   ],
@@ -20194,6 +20408,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-dGAx7YCARxLQs9y",
   "address": "Cook & Brew, 12 Marina View Asia Square Tower 2, Level 33 The Westin Singapore, Singapore 018961",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20370,6 +20585,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-PKQo3PwiApPV0DE",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -20459,6 +20675,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-tLuUoyzK6JKSGZh",
   "address": "LeVeL33, 8 Marina Blvd, #33 - 01 Tower 1, Singapore 018981",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20535,6 +20752,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Z4BIZMS8HlUoSAT",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -20594,6 +20812,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YwgoboHzdhHObSR",
   "address": "Singapore 058809",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20661,6 +20880,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-TVSTgNSHZ5pZZeF",
   "address": "59 Duxton Rd, Singapore 089523",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20790,6 +21010,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-y1YHyOkQC7Sck86",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-gGgc2b94Uzi5aTO",
@@ -20849,6 +21070,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-KD6jLHimnBO4KxZ",
   "address": "CÉ LA VI Singapore, 1 Bayfront Avenue, Hotel, Tower 3 Marina Bay Sands, Singapore 018971",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20910,6 +21132,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-u5jkDB8C216qbDP",
   "address": "Suntec City, 3 Temasek Blvd, Singapore 038983",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -20972,6 +21195,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bOryYZfE4vV8wAz",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -21037,6 +21261,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-7rWvVQNzQSrq7Au",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -21154,6 +21379,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-OvJir2VIHLcT0of",
   "address": "Mandala Club, 31 Bukit Pasoh Rd, Singapore 089845",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -21217,6 +21443,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-TLKtXKvfrATFZew",
   "address": "BOP (Bartenders of Pony), 76 Tras St, Singapore 079015",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -21294,6 +21521,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-MuyrCcfEIqBAxW2",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Games"
@@ -21370,6 +21598,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ERhISTy9W7CPhbj",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -21432,6 +21661,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-MGtrakjrohkd87n",
   "address": "MARQUEE Singapore, 10 Bayfront Ave, B1-67 The Shoppes, Marina Bay Sands, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -21494,6 +21724,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-BKQXQ52Kdro0nCM",
   "address": "Capital Zouk Singapore, 3C River Valley Road 01-05 to #02-06, Singapore 179022",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -21557,6 +21788,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-vi3MRdSPLgFKqUt",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Fitness"
   ],
@@ -21636,6 +21868,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-jOBWuJc3s9090vo",
   "address": "Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -21742,6 +21975,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1vMPCKsGTGq54i7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Fitness",
@@ -21852,6 +22086,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-MEAEcQH41WzZlok",
   "address": "WeWork - Office Space & Coworking, 21 Collyer Quay, Singapore 049320",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -22183,6 +22418,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1YJWH6G06wqxtqw",
   "address": "The Mill, 5 Jln Kilang, Singapore 159405",
+  "venue_visibility": "shown",
   "categories": [
    "Wellness"
   ],
@@ -22298,6 +22534,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-5zlvwGaV1a5KM4k",
   "address": "2 Sports Dr., Singapore 117561",
+  "venue_visibility": "shown",
   "categories": [
    "Fitness"
   ],
@@ -22363,6 +22600,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GjtcUA0RCT2rlru",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -22467,6 +22705,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-eGA5tDT8oCoPh1B",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -22531,6 +22770,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-p4SouuKrUrejZQP",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-62nFnYD5TtZ61LM",
@@ -22620,6 +22860,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-fDAS9T16AafsERp",
   "address": "Active Garden, Waterfront Plaza, 18 Marina Gardens Dr, Singapore 018953",
+  "venue_visibility": "shown",
   "categories": [
    "Fitness"
   ],
@@ -22701,6 +22942,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-dnC3AZ7HVT0DDDL",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-kmjjotgD1G0bPaA",
@@ -22831,6 +23073,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1kw1SG5xizwDdlS",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -22913,6 +23156,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-i8d99Y77wEeG9NQ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -23045,6 +23289,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bGC23AEnuTIp9Ot",
   "address": "Maison Boulud, 10 Bayfront Ave, B1-15 & #01-83 The Shoppes, Marina Bay Sands, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -23124,6 +23369,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-9KMWyTIZxdsAuE5",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -23244,6 +23490,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-r5dWNewO35etCmm",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -23306,6 +23553,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-R7GFZvPp1hBFGXr",
   "address": "Roberta’s Marina Bay Sands, 2 Bayfront Ave, B1-45, Singapore 018972",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -23384,6 +23632,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-pNLnIBkQtv6OjVD",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -23475,6 +23724,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-my8Z6xZsAyOA3nH",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -23597,6 +23847,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XxyFAa4KmAycXYU",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI"
   ],
@@ -23730,6 +23981,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YEw7Rn9hCkzAhJW",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -23795,6 +24047,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-89Vi3L5Z74SBP6x",
   "address": "Roberta’s Marina Bay Sands, 2 Bayfront Ave, B1-45, Singapore 018972",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-iRhoPUi1iE4pEqv",
@@ -23883,6 +24136,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-4tN2nAWV97hVxQX",
   "address": "PS.Cafe Marina Bay Sands, 10 Bayfront Ave, B2-119-120A, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -23948,6 +24202,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-FzUtIRZvUNfkl6t",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Tech"
   ],
@@ -24053,6 +24308,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-CF50fhBlHy1oUNH",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -24111,6 +24367,7 @@
   "list_hosts": [],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-uWH1GyNj7CHfMY3",
   "address": "Sands Expo & Convention Centre, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -24159,6 +24416,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-He5fkoBxzNhGHyS",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -24241,6 +24499,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-fCEG5rNaqsaJQuS",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -24388,6 +24647,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bM0BECae6KRPeo3",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto",
@@ -24451,6 +24711,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-OKGqJexBxQYMMTW",
   "address": "ArtScience Museum, 6 Bayfront Ave, Singapore 018974",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -24515,6 +24776,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-r9i9A4Xqub15b04",
   "address": "Linson Customized Furniture, 70 Bendemeer Rd, #01-02 Luzerne building, Singapore 339940",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -24606,6 +24868,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Ft5UnGHXDyBpcr7",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -24675,6 +24938,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-11BWLYcWvu8j97s",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -24822,6 +25086,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-1Vta9G6vnT8OOSK",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -24884,6 +25149,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-VI3GmKipwk7ooN4",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -24945,6 +25211,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-iB4tCIBsZJ6HaUS",
   "address": "The Mill, 5 Jln Kilang, Singapore 159405",
+  "venue_visibility": "shown",
   "categories": [
    "Food & Drink"
   ],
@@ -25006,6 +25273,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-N7kLtZp7HlQDnnn",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -25099,6 +25367,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-2FMVEC9RCHKgQFl",
   "address": "Guoco Midtown Network Hub, 126 Beach Rd, Singapore 189773",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -25193,6 +25462,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hmFWpBK7X2U9HlE",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -25276,6 +25546,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-qX07lwutcaNh5Fn",
   "address": "Suntec Singapore Convention & Exhibition Centre, 1 Raffles Blvd, Singapore 039593",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -25436,6 +25707,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6M224TGBjAKKrAu",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -25499,6 +25771,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-dTSa44tArsD1Uue",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -25564,6 +25837,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-AT5U6E2plmGr2hq",
   "address": "50 Raffles Pl, Singapore Land Tower, Singapore 048623",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -25654,6 +25928,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-wMdz3bPUyDxEo27",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -25715,6 +25990,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-tvhlHdK13Rj6l2G",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-DPOv1o6YVH4QKOC",
@@ -25775,6 +26051,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-gGn1cyC5fYF6UVf",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -25835,6 +26112,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-sPhAqOtfGigBJEL",
   "address": "Marina Bay Sands Expo & Convention, 10 Bayfront Ave, Singapore 018956",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -25900,6 +26178,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Kuu2Wl6zMVNuBDf",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -26007,6 +26286,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-hGad7fcCLDEHZUT",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto",
    "Fitness"
@@ -26125,6 +26405,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8XxZQzzl1VhzYEO",
   "address": "PLUS, 20 Cecil St, Singapore 049705",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -26184,6 +26465,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-xEuapRTL84u7tAd",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Arts & Culture"
   ],
@@ -26249,6 +26531,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-M5a1cd4vT8C6iTl",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -26352,6 +26635,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8eGjjFUWFeGVhCb",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-DchwBqK5g4qyGv7",
@@ -26412,6 +26696,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-5xOAEMerjUAu713",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-mzg6aZcyg4WMEPf",
@@ -26513,6 +26798,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-RyxU90dHITGzHKR",
   "address": "IOI Central Boulevard Towers, 2 Central Blvd, Singapore 018916",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -26576,6 +26862,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-QierwT1tV1bG1AJ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -26638,6 +26925,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-s5FLEZDkFtoyPMb",
   "address": "Dallas Cafe & Bar (MBS), 2 Bayfront Ave, #01 - 85 The Shoppes at Marina Bay Sands, Singapore 018972",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -26701,6 +26989,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-HziXalsPoEuH6Ba",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI"
   ],
@@ -26782,6 +27071,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-XHYBBGBjONqsaf5",
   "address": "National Gallery Singapore, Singapore 178957",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -26928,6 +27218,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-gHEGbdLMBoj9JDY",
   "address": "Echo Live Party Singapore, 3 TEMASEK BOULEVARD #03-319 SUNTEC CITY, MALL, LEVEL 3 SUNTEC TOWER 1, Singapore 038983",
+  "venue_visibility": "shown",
   "categories": [
    "Arts & Culture",
    "Crypto"
@@ -26991,6 +27282,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-aBuxB0TfO73O483",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -27052,6 +27344,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-kHFWAQ9b5zAnzdr",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -27116,6 +27409,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-a8fmBgUYlUF1t9H",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -27197,6 +27491,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-3WZ3xp7yk33r5v7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -27320,6 +27615,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-BhqeqQbgW2t5VIV",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -27465,6 +27761,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-5RMBYdKS7czHCfB",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-uOYASOmzR0HvOki",
@@ -27526,6 +27823,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YzTyHwpIjgNDTse",
   "address": "Tower Club Singapore, 9 Raffles Pl, Tower 1, Penthouse (62nd 64th Floors, Republic Plaza, Singapore 048619",
+  "venue_visibility": "shown",
   "categories": [
    "Tech"
   ],
@@ -27602,6 +27900,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GpCTCCgDDYiEGaM",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-WV7tBV8zUfAsPLt",
@@ -27662,6 +27961,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-tOgGMxgiTXCyzFe",
   "address": "Bold Thai, 13 Stamford Rd, B2 - 55 Capitol Singapore, Singapore 178905",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -27728,6 +28028,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bOMXGgozqRSjbRM",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -27847,6 +28148,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-DxQUILKCf4TM5Mv",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-cAH1fpslWF2bK2J",
@@ -27941,6 +28243,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GmvO8wQEg6ZsbPr",
   "address": "The Riverhouse Singapore, 3A River Valley Rd, #01- 02, Singapore 179020",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -28101,6 +28404,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-xbeRv1OLY0bBoEL",
   "address": "The Mill, 5 Jln Kilang, Singapore 159405",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-Kn7V6adwI7mGGCg",
@@ -28163,6 +28467,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-SnRFyd6NvtVz46a",
   "address": "Marguerite, 18 Marina Gardens Dr, #01-09 Flower Dome, Singapore 018953",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -28251,6 +28556,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cCQxYqNp6Lit6JM",
   "address": "52a Amoy St, Singapore 069878",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -28330,6 +28636,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-GE7xegumbiS7aBe",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -28447,6 +28754,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-QzIriVwBkweKaew",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -28516,6 +28824,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-8AztdTrSD91ZvNf",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -28676,6 +28985,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-3fiXS5WfhIUrobu",
   "address": "SuperPark Singapore, 3 Temasek Blvd, #01-488 Suntec City Mall, Singapore 038983",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-2659exn3RK34A24",
@@ -28751,6 +29061,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-LEYEvg6H3jz4yW1",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -28869,6 +29180,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-iY37AdUAol1DAmK",
   "address": "Ensō Steakhouse, 138 Market St, Level 38, Singapore 048946",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-25tiD0SHAHEPC0L",
@@ -28927,6 +29239,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-5jMHdlt8GLVUyKq",
   "address": "Employees Only Singapore, 112 Amoy St, Singapore 069932",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -29002,6 +29315,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-zwDwU5u6XiNfHC0",
   "address": "Register to receive the venue address",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -29063,6 +29377,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-06Ct10WU9ZiLtr9",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29122,6 +29437,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-He76CZwGZH9AbPh",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29189,6 +29505,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Tjs4Yd1WdNd2mGA",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29335,6 +29652,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-FZcRjue7jwJVpTl",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29398,6 +29716,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-WuywZ751Gf7ABz1",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29461,6 +29780,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Mexd5i7iaGZHgnI",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29551,6 +29871,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-fE9nA0Bi8GZoOUZ",
   "address": "V DUXTON, 37 Duxton Hl, Singapore 089615",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -29658,6 +29979,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-CPAvoPDAVuchB4S",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29762,6 +30084,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-FLo0uomqm6NS5xa",
   "address": "C.O.T.U Dining & Entertainment Skytower, 138 Market St, Levels, 138 Market St, #38 & 39 CapitaGreen, Singapore 048946",
+  "venue_visibility": "shown",
   "categories": [],
   "calendar": {
    "api_id": "cal-25tiD0SHAHEPC0L",
@@ -29822,6 +30145,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-VgRWddlenvE8IAz",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -29899,6 +30223,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YmTGHFb7GGjrcgp",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -29990,6 +30315,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-kD8MODAGxp3E7nT",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -30055,6 +30381,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-iuFabSnK5cWmb7t",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -30161,6 +30488,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-aKIP9cll7FJSSGC",
   "address": "The Mill, 5 Jln Kilang, Singapore 159405",
+  "venue_visibility": "shown",
   "categories": [
    "AI"
   ],
@@ -30241,6 +30569,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-l0Q2lprJGf8HgEj",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -30338,6 +30667,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-t8ZJyfPI2ApuMFL",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -30505,6 +30835,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-jcfQgxTi4CRE5uH",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -30654,6 +30985,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-uh5bUsiShrXfUdi",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -30747,6 +31079,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-7NnbplGQrqYNLsE",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Fitness"
   ],
@@ -30839,6 +31172,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-ysvqWnbANDE9te5",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -30913,6 +31247,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-qmHU1D84ZQ54OmE",
   "address": "The Mill, 5 Jln Kilang, Singapore 159405",
+  "venue_visibility": "shown",
   "categories": [
    "Food & Drink"
   ],
@@ -30975,6 +31310,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-jM4DNos45chiDoD",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -31053,6 +31389,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-YxPxHSc4cfLHPPt",
   "address": "Pickle & Bones at TRIFECTA, 10A Exeter Rd, Singapore 239958",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto",
    "Fitness"
@@ -31143,6 +31480,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6OB0vV6qwh00UGZ",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Fitness",
    "Wellness"
@@ -31212,6 +31550,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-MpA3DOB3bt3zH1v",
   "address": "SQ Collective x Gen-AI Labs, 65 Mohamed Sultan Rd, Singapore 239003",
+  "venue_visibility": "shown",
   "categories": [
    "AI",
    "Crypto"
@@ -31345,6 +31684,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cZZxKozsA7fPvL4",
   "address": "ONE°15 Marina Sentosa Cove Singapore, 11 Cove Drive, #01-01, Sentosa Cove, Singapore 098497",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -31407,6 +31747,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-bE6gT6jhhp8bsDH",
   "address": "91 Bencoolen St, Singapore 189652",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto",
    "Fitness",
@@ -31472,6 +31813,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-xUqEbdjnaHsM7uC",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -31539,6 +31881,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-x7cGCJyum5mjL1i",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -31686,6 +32029,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-NhFsn3WR8phYgF3",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-PCc27iOo7WM8wbX",
@@ -31762,6 +32106,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-u8l1E6IrCT4fv5j",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -31870,6 +32215,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-eL4COlOsjO8nmb0",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-sJ9WgIsBHGIbmCY",
@@ -31989,6 +32335,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-6FIAHVDFdfyF14Q",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "AI",
    "Crypto"
@@ -32110,6 +32457,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-aH8VyN00nD94ywu",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -32169,6 +32517,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-tru0Sjj1XAGhzwQ",
   "address": "80 Mandai Lake Rd, Singapore 729826",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -32231,6 +32580,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-yat9s7akFK6ClEv",
   "address": "OverTime Pub, 30 Mosque St, Singapore 059508",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -32308,6 +32658,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-9q39eoIig4HMQQE",
   "address": "Conrad Singapore Orchard, 1 Cuscaden Rd, Singapore 249715",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -32412,6 +32763,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-63MghBL969lEzM5",
   "address": "MacRitchie Reservoir Park Car Park, Lornie Road, Reservoir Rd, Parking lot, Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Fitness"
   ],
@@ -32474,6 +32826,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-Bl0lcVK4HyVRpPO",
   "address": "Central Area, Singapore",
+  "venue_visibility": "shown",
   "categories": [
    "Food & Drink"
   ],
@@ -32565,6 +32918,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-NvExRG9HaewrWmN",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Food & Drink"
   ],
@@ -32654,6 +33008,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-eWahJaN14Qh3pDp",
   "address": "Chez Suzette Singapore, 5 Teck Lim Rd, #01-01, Singapore 088383",
+  "venue_visibility": "shown",
   "categories": [
    "Crypto"
   ],
@@ -32722,6 +33077,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-V2wAPVrZxjmABYR",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -32872,6 +33228,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-zOTmtsoDHIHRi7N",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -33004,6 +33361,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-cX1lalPzxi5SsdF",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [],
   "calendar": {
    "api_id": "cal-tutCi3DdFTxhfYz",
@@ -33084,6 +33442,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-fQ4gpwBaPC3et6C",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -33231,6 +33590,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-i5mrIwPA3RiJiZ7",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Food & Drink"
   ],
@@ -33323,6 +33683,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-EIwGJtiTReS3iJM",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Crypto"
   ],
@@ -33432,6 +33793,7 @@
   ],
   "fetched_from": "https://api.lu.ma/event/get?event_api_id=evt-MJg2fW5dyLR3mcT",
   "address": null,
+  "venue_visibility": "obfuscated",
   "categories": [
    "Tech"
   ],

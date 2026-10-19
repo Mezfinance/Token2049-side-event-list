@@ -89,6 +89,8 @@ def extract(event_record: dict, api: dict) -> dict:
         "fetched_from": f"{EVENT_API}?event_api_id={event_record['event_api_id']}",
         "guest_count": api.get("guest_count"),
         "address": geo.get("full_address") or geo.get("address"),
+        # "shown" = venue public; "obfuscated" = hidden until you register; None = no location set
+        "venue_visibility": geo.get("mode") if geo else None,
         "city": geo.get("city") or event_record.get("city"),
         "country": geo.get("country") or event_record.get("country"),
         "categories": [c.get("name") for c in api.get("categories") or [] if isinstance(c, dict)],
@@ -122,7 +124,8 @@ def main() -> None:
         if not e.get("event_api_id"):
             # external (non-Luma) listing: nothing to visit, keep what the calendar gave us
             results.append({**e, "hosts": [{"name": h} for h in e.get("list_hosts") or []],
-                            "calendar": None, "description": "", "address": None, "categories": []})
+                            "calendar": None, "description": "", "address": None,
+                            "venue_visibility": None, "categories": []})
             continue
         cpath = cache / f"{e['event_api_id']}.json"
         if cpath.exists():

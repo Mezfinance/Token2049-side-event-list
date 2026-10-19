@@ -23,6 +23,7 @@ luma_scraper/
   export_rows.py         step 3a: flatten to CSV/JSON rows -> data/export/
   write_to_sheet.py      step 3b: gspread upload into two tabs of the sheet
   build_xlsx.py          step 3c: styled XLSX files with the TOKEN2049 Week banner
+  search_x_locations.py  step 4: X API search for venues of hidden-location events (needs X_BEARER_TOKEN)
   assets/                token2049_week_banner.png (2048x228, extracted from the official sheet)
   requirements.txt
   data/                  committed snapshot of the last run (cache/ is git-ignored)
@@ -46,6 +47,12 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   `is_personal: true` means it is just a person's default calendar, so the
   export leaves the organisation blank in that case.
 - `platform: "external"` entries have no Luma event id and an absolute `url`.
+- `event.geo_address_info.mode` is `"shown"` (full_address public) or
+  `"obfuscated"` (only city; address says "Singapore"). 2026 run: 133 shown,
+  226 obfuscated, 3 external. Exported as the "Venue" / "Venue status" columns.
+- X API v2: `search/recent` covers 7 days only; `search/all` (full archive)
+  needs the Pro tier. The 2026 events (3-11 Oct) fell out of the recent window
+  on 18 Oct, so the venue search needs `--archive` and a Pro-tier token.
 - The past list covers several editions: 2023 (362 entries), 2024 (555),
   2025 (547), 2026 (362). Everything is filtered to `--year 2026` by default.
 - The target sheet's existing tab "TOKEN2049 Week" is the official side-events
@@ -70,6 +77,12 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   producing the two styled XLSX files in `luma_scraper/data/export/`.
   Verified by rendering page 1 of each through LibreOffice. No formulas in
   these workbooks, so no recalculation step is needed.
+- 2026-10-19: added "Venue" and "Venue status" columns to every export and
+  the XLSX files (addresses were already in the cache; no re-scrape). Wrote
+  `search_x_locations.py` for the 226 hidden-venue events. Not run: the
+  session had no X bearer token (api.x.com is reachable, returns 401 without
+  one). To run it, the user adds `X_BEARER_TOKEN` to the cloud environment's
+  secrets, then a new session runs step 4 with `--archive`.
 
 ## Conventions
 
