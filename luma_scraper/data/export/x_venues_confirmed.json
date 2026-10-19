@@ -33,5 +33,26 @@
   "venue": "Raffles Place area, Singapore (exact venue not named; invitation only)",
   "source_url": "https://x.com/IDNblockchain/status/2105983005630349369",
   "note": "Organiser post gives 'Raffles Place' only."
+ },
+ {
+  "event_api_id": "evt-8AztdTrSD91ZvNf",
+  "event": "GenLayer's Path to TGE: Convergence Dinner by Surgence",
+  "venue": "Restaurant Fiz (Michelin-starred), Singapore",
+  "source_url": "https://x.com/surgence_io/status/2105556015437808095",
+  "note": "Organiser post: 'an intimate dinner at Michelin-starred Restaurant Fiz'; wrap-up post confirms."
+ },
+ {
+  "event_api_id": "evt-G5ZEYn3MFv30EPX",
+  "event": "Stablecoins Meet Fiat Rails",
+  "venue": "Rooftop terrace, 43rd floor overlooking Marina Bay (venue not named)",
+  "source_url": "https://x.com/Hex_Trust/status/2107666827048604071",
+  "note": "Organiser post: 'on one terrace, 43 floors above Marina Bay'."
+ },
+ {
+  "event_api_id": "evt-pNLnIBkQtv6OjVD",
+  "event": "HypurrCo Gathers x Hyperliquid Strategies x Hyperliquid Policy Center x Insilico Terminal",
+  "venue": "Bugis area, Singapore (exact venue announced to guests the day before)",
+  "source_url": "https://x.com/hypurr_co/status/2104496047544467579",
+  "note": "Organiser post: 'Location: Bugis Area (Specific location will be announced day before the event)'."
  }
 ]

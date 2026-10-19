@@ -65,10 +65,25 @@ limits (about 10 timeline reads per 15 minutes) make a full run take around
 12 hours; Pro finishes in minutes.
 
 ```bash
-X_BEARER_TOKEN=... python3 search_x_timelines.py            # full run, resumable
+X_BEARER_TOKEN=... python3 search_x_timelines.py --exclude-replies --max-pages 1 --stop-below-balance 20
 X_BEARER_TOKEN=... python3 search_x_timelines.py --limit 20  # hosts with the most events first
+python3 search_x_timelines.py --offline                      # rebuild from cache, no API calls
 python3 search_x_timelines.py --dry-run
 ```
+
+X's pay-per-use plan bills per post returned (about half a cent each), so
+`--exclude-replies --max-pages 1` keeps a full run to a few dollars; with
+replies included heavy posters return 200 posts each and cost about four
+times more. In the Claude cloud environment the token can be a network
+secret for `api.x.com` instead of an environment variable.
+
+Candidate posts that actually name the event's venue are recorded by hand in
+`data/export/x_venues_confirmed.json` (event id, venue, source post). Step 3a
+reads that file and fills the Venue column for events whose Luma address is
+hidden, with the status "From organiser's X post" and the post link in the
+"Venue source" column. In the 2026 run, 207 of the 226 hidden-venue events
+had a host on X and 66 had posts with venue-like words, but only 8 named the
+venue itself.
 
 Steps 1 to 3a need no credentials. Step 2 caches every raw event response in
 `data/cache/`, so re-running it is instant and an interrupted run resumes.

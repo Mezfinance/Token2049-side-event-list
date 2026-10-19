@@ -123,6 +123,23 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   Partial result committed: `data/export/x_timeline_candidates.{json,csv}`:
   140/226 events had a host covered, 42 have venue-hinting posts (100 posts).
   The candidates are for a person to confirm; nothing is written back.
+- 2026-10-19 (run completed): resumed with `--exclude-replies --max-pages 1
+  --stop-below-balance 20`; the remaining 248 handles cost $11.67 (about 4
+  cents per handle vs 17 cents with replies). Total X spend $50.42; balance
+  left $36.32. Final: 473 handles, 33 not found on X, 207/226 hidden-venue
+  events had at least one host covered, 66 events had venue-hinting posts.
+  Claude read every hint post and recorded the ones that name the event's
+  own venue in `data/export/x_venues_confirmed.json`: 8 events (5 named
+  venues: Gardens by the Bay, Raffles Hotel 3rd floor, Tower Club, CHIJMES,
+  Restaurant Fiz; 3 area-only: Raffles Place, Bugis, a 43rd-floor terrace
+  over Marina Bay). Most hint posts were booth locations at the main
+  conference, speaker/stage announcements, or other events by the same
+  organiser, so they were left out. `export_rows.py` merges the file into the
+  Venue column with status "From organiser's X post" and a "Venue source"
+  column (post link, or the Luma link for public venues). Venue status now:
+  133 Public, 8 From organiser's X post, 218 Hidden until registered, 3
+  External. To add more: append to `x_venues_confirmed.json`, then rerun
+  steps 3a and 3c.
 
 ## Conventions
 
