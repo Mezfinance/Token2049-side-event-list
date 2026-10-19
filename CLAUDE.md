@@ -97,6 +97,11 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   the API host is `api.x.com` (not `x.com`), and environment secrets only
   load into a NEW session. Both X scripts now run without X_BEARER_TOKEN and
   rely on the proxy-injected credential when the variable is absent.
+  After the user re-scoped the secret to `api.x.com` the proxy did inject it
+  live (no new session needed): api.x.com answered 403 `client-not-enrolled`,
+  meaning the X developer App is not attached to a Project. Fix is on the X
+  developer portal (create a Project, add the App to it, regenerate the
+  bearer token, update the secret). Then run step 4b.
 
 ## Conventions
 
