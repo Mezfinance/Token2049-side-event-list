@@ -17,8 +17,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
+CONFIRMED_VENUES = Path(__file__).resolve().parent / "data" / "export" / "x_venues_confirmed.json"
+
 EVENT_COLUMNS = [
-    "Date", "Start", "End", "Event", "Venue", "Venue status", "Luma link", "Platform", "Tags",
+    "Date", "Start", "End", "Event", "Venue", "Venue status", "Venue source", "Luma link", "Platform", "Tags",
     "Organising calendar", "Calendar website", "Calendar X", "Calendar LinkedIn",
     "Hosts", "Host bios", "Host websites", "Host X handles", "Host LinkedIn",
     "Host Instagram", "Host count", "Guest count", "City", "Country", "Event ID",
@@ -69,7 +71,14 @@ VENUE_STATUS = {
 }
 
 
-def venue(r: dict) -> str:
+def load_confirmed() -> dict[str, dict]:
+    """Venues found in organisers' X posts and confirmed by a reviewer (step 4b output)."""
+    if not CONFIRMED_VENUES.exists():
+        return {}
+    return {c["event_api_id"]: c for c in json.loads(CONFIRMED_VENUES.read_text()) if c.get("venue")}
+
+
+def luma_venue(r: dict) -> str:
     """Street address when Luma shows it; blank when hidden or missing."""
     addr = r.get("address") or ""
     # an obfuscated event still reports "Singapore" as its address; treat that as no venue
@@ -78,13 +87,30 @@ def venue(r: dict) -> str:
     return addr
 
 
-def venue_status(r: dict) -> str:
+def venue(r: dict, confirmed: dict[str, dict] | None = None) -> str:
+    v = luma_venue(r)
+    if v:
+        return v
+    c = (confirmed or {}).get(r.get("event_api_id") or "")
+    return c["venue"] if c else ""
+
+
+def venue_status(r: dict, confirmed: dict[str, dict] | None = None) -> str:
     if r.get("platform") == "external":
         return "External listing"
+    if not luma_venue(r) and (confirmed or {}).get(r.get("event_api_id") or ""):
+        return "From organiser's X post"
     return VENUE_STATUS.get(r.get("venue_visibility"), "Not set")
 
 
-def event_row(r: dict) -> list:
+def venue_source(r: dict, confirmed: dict[str, dict] | None = None) -> str:
+    if luma_venue(r):
+        return r.get("url") or ""
+    c = (confirmed or {}).get(r.get("event_api_id") or "")
+    return c.get("source_url", "") if c else ""
+
+
+def event_row(r: dict, confirmed: dict[str, dict]) -> list:
     hosts = r.get("hosts") or []
     cal = r.get("calendar") or {}
     tz = r.get("timezone")
@@ -93,8 +119,9 @@ def event_row(r: dict) -> list:
         local(r.get("start_at"), tz, "%H:%M"),
         local(r.get("end_at"), tz, "%H:%M"),
         r.get("name") or "",
-        venue(r),
-        venue_status(r),
+        venue(r, confirmed),
+        venue_status(r, confirmed),
+        venue_source(r, confirmed),
         r.get("url") or "",
         r.get("platform") or "luma",
         joined(r.get("tags") or [], ", "),
@@ -116,7 +143,7 @@ def event_row(r: dict) -> list:
     ]
 
 
-def host_rows(r: dict) -> list[list]:
+def host_rows(r: dict, confirmed: dict[str, dict]) -> list[list]:
     cal = r.get("calendar") or {}
     tz = r.get("timezone")
     rows = []
@@ -124,7 +151,7 @@ def host_rows(r: dict) -> list[list]:
         rows.append([
             local(r.get("start_at"), tz, "%a %d %b %Y"),
             r.get("name") or "",
-            venue(r),
+            venue(r, confirmed),
             r.get("url") or "",
             h.get("name") or "",
             h.get("username") or "",
@@ -154,8 +181,11 @@ def main() -> None:
     out = Path(args.out_dir)
     out.mkdir(parents=True, exist_ok=True)
 
-    ev_rows = [event_row(r) for r in records]
-    ho_rows = [row for r in records for row in host_rows(r)]
+    confirmed = load_confirmed()
+    if confirmed:
+        print(f"{len(confirmed)} venues from confirmed X posts ({CONFIRMED_VENUES.name})")
+    ev_rows = [event_row(r, confirmed) for r in records]
+    ho_rows = [row for r in records for row in host_rows(r, confirmed)]
 
     with (out / "events.csv").open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

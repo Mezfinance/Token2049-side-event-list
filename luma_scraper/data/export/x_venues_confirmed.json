@@ -1,0 +1,37 @@
+[
+ {
+  "event_api_id": "evt-bGWgAlfUqt19gq7",
+  "event": "Utila Run Club: TOKEN2049",
+  "venue": "Gardens by the Bay (5K run route)",
+  "source_url": "https://x.com/utila_io/status/2105961080816374049",
+  "note": "Organiser post: 'An easy 5K around Gardens by the Bay'."
+ },
+ {
+  "event_api_id": "evt-fPYLSOuT8iZ9pgf",
+  "event": "Digital Asset Yield Summit Singapore",
+  "venue": "Raffles Hotel, 3rd floor, Singapore",
+  "source_url": "https://x.com/Yield_Summit/status/2107010400596463625",
+  "note": "Organiser post: 'we meet on the 3rd floor of the iconic Raffles Hotel'."
+ },
+ {
+  "event_api_id": "evt-He5fkoBxzNhGHyS",
+  "event": "Quantum & Privacy Day: at Token2049 Singapore",
+  "venue": "Tower Club, Singapore",
+  "source_url": "https://x.com/QuantusNetwork/status/2107765436485951909",
+  "note": "Organiser post: 'October 8 | Tower Club, Singapore'."
+ },
+ {
+  "event_api_id": "evt-vgMkvMtis7lDGiI",
+  "event": "BUIDL_QUESTS 2026 Final Day",
+  "venue": "CHIJMES, Singapore",
+  "source_url": "https://x.com/amber_ac_/status/2106696899638219255",
+  "note": "Organiser post: 'Oct 6 AI Passport Lucky Draws at CHIJMES ... during the Final Day'."
+ },
+ {
+  "event_api_id": "evt-ty04f7nxslNZtHV",
+  "event": "Indonesia Investment Forum 2026 Day 01",
+  "venue": "Raffles Place area, Singapore (exact venue not named; invitation only)",
+  "source_url": "https://x.com/IDNblockchain/status/2105983005630349369",
+  "note": "Organiser post gives 'Raffles Place' only."
+ }
+]

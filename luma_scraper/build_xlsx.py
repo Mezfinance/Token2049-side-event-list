@@ -50,7 +50,7 @@ FIRST_DATA_ROW = 7
 
 # column widths per header name; anything not listed gets a default
 WIDTHS = {
-    "Date": 17, "Start": 8, "End": 8, "Event": 48, "Venue": 42, "Venue status": 22,
+    "Date": 17, "Start": 8, "End": 8, "Event": 48, "Venue": 42, "Venue status": 24, "Venue source": 30,
     "Luma link": 30, "Platform": 9,
     "Tags": 20, "Organising calendar": 30, "Calendar website": 30, "Calendar X": 28,
     "Calendar LinkedIn": 34, "Hosts": 40, "Host bios": 60, "Host websites": 36,
@@ -60,7 +60,7 @@ WIDTHS = {
     "Host X": 30, "Host Instagram": 32, "Host TikTok": 14, "Host YouTube": 16, "Verified": 8,
 }
 LINK_COLUMNS = {
-    "Luma link", "Calendar website", "Calendar X", "Calendar LinkedIn",
+    "Luma link", "Venue source", "Calendar website", "Calendar X", "Calendar LinkedIn",
     "Host website", "Host X", "Host LinkedIn", "Host Instagram",
 }
 # "Host bios" (events view) stays unwrapped: with 9 hosts in one cell a wrapped row gets very tall
