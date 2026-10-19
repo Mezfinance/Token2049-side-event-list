@@ -147,7 +147,8 @@ def main() -> None:
 
     token = os.environ.get("X_BEARER_TOKEN")
     if not token and not args.dry_run:
-        raise SystemExit("set X_BEARER_TOKEN (X API v2 bearer token) or use --dry-run")
+        print("X_BEARER_TOKEN not set; relying on a proxy-injected credential for api.x.com",
+              file=sys.stderr)
 
     events = json.loads(Path(args.inp).read_text())
     targets = [e for e in events
@@ -160,7 +161,9 @@ def main() -> None:
     url = ARCHIVE if args.archive else RECENT
     now = datetime.now(timezone.utc)
     s = requests.Session()
-    s.headers.update({"Authorization": f"Bearer {token}", "User-Agent": "token2049-venue-finder/1.0"})
+    s.headers.update({"User-Agent": "token2049-venue-finder/1.0"})
+    if token:
+        s.headers["Authorization"] = f"Bearer {token}"
 
     results = []
     for i, ev in enumerate(targets, 1):

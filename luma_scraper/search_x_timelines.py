@@ -148,7 +148,11 @@ def main() -> None:
 
     token = os.environ.get("X_BEARER_TOKEN")
     if not token and not args.dry_run:
-        raise SystemExit("set X_BEARER_TOKEN (X API v2 bearer token) or use --dry-run")
+        # In the Claude cloud environment a "network secret" for api.x.com is added by the
+        # proxy, not exposed as a variable, so carry on without our own header; a 401 is
+        # reported below if nothing authenticates the call.
+        print("X_BEARER_TOKEN not set; relying on a proxy-injected credential for api.x.com",
+              file=sys.stderr)
 
     events = json.loads(Path(args.inp).read_text())
     hidden, by_handle = collect_targets(events)
@@ -177,7 +181,9 @@ def main() -> None:
     cache = Path(args.cache)
     cache.mkdir(parents=True, exist_ok=True)
     s = requests.Session()
-    s.headers.update({"Authorization": f"Bearer {token}", "User-Agent": "token2049-venue-finder/1.0"})
+    s.headers.update({"User-Agent": "token2049-venue-finder/1.0"})
+    if token:
+        s.headers["Authorization"] = f"Bearer {token}"
 
     users = resolve_users(s, handles, cache / "users.json")
     now = datetime.now(timezone.utc) - timedelta(seconds=30)

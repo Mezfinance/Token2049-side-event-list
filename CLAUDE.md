@@ -91,6 +91,12 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   git-ignored. When a token exists: run step 4b, then review
   `data/export/x_timeline_candidates.csv` and copy confirmed venues into the
   export by hand (the script does not write venues back).
+- 2026-10-19 (token attempt): user added the bearer token as a cloud
+  environment network secret scoped to `x.com`. It did not reach the running
+  session: no env var, and api.x.com still answered 401. Two things to know:
+  the API host is `api.x.com` (not `x.com`), and environment secrets only
+  load into a NEW session. Both X scripts now run without X_BEARER_TOKEN and
+  rely on the proxy-injected credential when the variable is absent.
 
 ## Conventions
 
