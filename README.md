@@ -14,7 +14,8 @@ then pushes the result into an existing Google Sheet as two new tabs.
 | 3a. Flatten | `luma_scraper/export_rows.py` | `data/organisers.json` | `data/export/events.csv`, `hosts.csv`, `rows.json` |
 | 3b. Sheet | `luma_scraper/write_to_sheet.py` | `data/export/rows.json` | tabs "Luma Organisers" and "Luma Hosts" in the Google Sheet |
 | 3c. XLSX | `luma_scraper/build_xlsx.py` | `data/export/rows.json` + `assets/token2049_week_banner.png` | `TOKEN2049_2026_Luma_Organisers.xlsx`, `TOKEN2049_2026_Luma_Hosts.xlsx` |
-| 4. Venues from X | `luma_scraper/search_x_locations.py` | `data/organisers.json` + `X_BEARER_TOKEN` | `data/export/x_location_candidates.json` / `.csv` |
+| 4a. Venues from X search | `luma_scraper/search_x_locations.py` | `data/organisers.json` + `X_BEARER_TOKEN` | `data/export/x_location_candidates.json` / `.csv` |
+| 4b. Venues from host timelines | `luma_scraper/search_x_timelines.py` | `data/organisers.json` + `X_BEARER_TOKEN` | `data/export/x_timeline_candidates.json` / `.csv` |
 
 ```bash
 cd luma_scraper
@@ -51,6 +52,22 @@ venues back into the data on its own.
 ```bash
 X_BEARER_TOKEN=... python3 search_x_locations.py --archive
 python3 search_x_locations.py --dry-run     # print the queries, call nothing
+```
+
+`search_x_timelines.py` is the version that works on the Basic tier: instead
+of keyword search it reads each host's own timeline (`/2/users/:id/tweets`),
+which accepts `start_time`/`end_time` with no 7-day cap. It resolves the 473
+host and organiser handles behind the hidden-venue events, pulls each one's
+posts in a window around their events, and keeps posts that share words with
+the event name and/or mention a venue or a Singapore postcode. Every lookup is
+cached under `data/cache_x/`, so an interrupted run resumes. Basic-tier rate
+limits (about 10 timeline reads per 15 minutes) make a full run take around
+12 hours; Pro finishes in minutes.
+
+```bash
+X_BEARER_TOKEN=... python3 search_x_timelines.py            # full run, resumable
+X_BEARER_TOKEN=... python3 search_x_timelines.py --limit 20  # hosts with the most events first
+python3 search_x_timelines.py --dry-run
 ```
 
 Steps 1 to 3a need no credentials. Step 2 caches every raw event response in

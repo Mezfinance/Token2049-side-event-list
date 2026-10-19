@@ -23,7 +23,8 @@ luma_scraper/
   export_rows.py         step 3a: flatten to CSV/JSON rows -> data/export/
   write_to_sheet.py      step 3b: gspread upload into two tabs of the sheet
   build_xlsx.py          step 3c: styled XLSX files with the TOKEN2049 Week banner
-  search_x_locations.py  step 4: X API search for venues of hidden-location events (needs X_BEARER_TOKEN)
+  search_x_locations.py  step 4a: X keyword search for venues of hidden-location events (needs X_BEARER_TOKEN + Pro tier)
+  search_x_timelines.py  step 4b: same goal via each host's own timeline (Basic tier works; slow)
   assets/                token2049_week_banner.png (2048x228, extracted from the official sheet)
   requirements.txt
   data/                  committed snapshot of the last run (cache/ is git-ignored)
@@ -83,6 +84,13 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   session had no X bearer token (api.x.com is reachable, returns 401 without
   one). To run it, the user adds `X_BEARER_TOKEN` to the cloud environment's
   secrets, then a new session runs step 4 with `--archive`.
+- 2026-10-19 (later): user chose the host-timeline route. Added
+  `search_x_timelines.py` (step 4b). Sizing: 226 hidden-venue events map to
+  473 unique X handles; 13 events have no handle at all. Still no token in
+  the environment, so it was dry-run only. Cache dir `data/cache_x/` is
+  git-ignored. When a token exists: run step 4b, then review
+  `data/export/x_timeline_candidates.csv` and copy confirmed venues into the
+  export by hand (the script does not write venues back).
 
 ## Conventions
 

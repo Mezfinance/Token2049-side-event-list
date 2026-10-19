@@ -7,6 +7,8 @@ token*.json
 
 # per-event raw API cache (hundreds of files, regenerable)
 luma_scraper/data/cache/
+# X API user lookups and timelines (step 4b)
+luma_scraper/data/cache_x/
 
 __pycache__/
 *.pyc
