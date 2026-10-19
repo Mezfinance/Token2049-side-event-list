@@ -112,6 +112,17 @@ row 5, header row 6, data from row 7, header frozen, autofilter on.
   the same v2 API: the App must sit in a Project enrolled on a pay-per-use (or
   paid) package in a Production environment. Once enrolled, both REST scripts
   work unchanged; MCP is an alternative transport, not a different entitlement.
+- 2026-10-19 (run): user enrolled the app on pay-per-use with $86.74 prepaid.
+  Step 4b ran for 225 of 473 handles (210 timelines, 6,872 posts) and was
+  stopped by the user over cost: $38 spent, about $0.0055 per post returned
+  plus roughly $0.01 per request. Heavy posters return 200 posts in the window
+  (2 pages), which drives the cost; `--exclude-replies --max-pages 1` is the
+  cheap setting for the remaining 248 handles. The `--stop-below-balance`
+  guard was broken on that run (posted to `/2/mcp`; fixed to `/mcp`).
+  `--offline` rebuilds results from `data/cache_x/` with no API calls.
+  Partial result committed: `data/export/x_timeline_candidates.{json,csv}`:
+  140/226 events had a host covered, 42 have venue-hinting posts (100 posts).
+  The candidates are for a person to confirm; nothing is written back.
 
 ## Conventions
 

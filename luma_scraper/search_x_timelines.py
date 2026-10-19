@@ -104,15 +104,17 @@ def resolve_users(session, handles: list[str], cache_file: Path) -> dict[str, di
 
 
 def fetch_timeline(session, user_id: str, start: datetime, end: datetime, max_pages: int,
-                   cache_file: Path) -> list[dict]:
+                   cache_file: Path, exclude: str = "retweets") -> list[dict] | None:
     if cache_file.exists():
         return json.loads(cache_file.read_text())
+    if session is None:  # offline mode
+        return None
     tweets: list[dict] = []
     token = None
     for _ in range(max_pages):
         params = {
             "start_time": fmt_ts(start), "end_time": fmt_ts(end), "max_results": 100,
-            "exclude": "retweets", "tweet.fields": TWEET_FIELDS,
+            "exclude": exclude, "tweet.fields": TWEET_FIELDS,
         }
         if token:
             params["pagination_token"] = token
@@ -140,7 +142,7 @@ def event_terms(event: dict) -> list[str]:
 def check_balance(session: requests.Session) -> float | None:
     """Prepaid credit balance via the hosted MCP endpoint (pay-per-use accounts)."""
     try:
-        r = session.post(f"{API}/mcp", json={"jsonrpc": "2.0", "id": 1, "method": "tools/call",
+        r = session.post("https://api.x.com/mcp", json={"jsonrpc": "2.0", "id": 1, "method": "tools/call",
                                             "params": {"name": "get_usage_credits", "arguments": {}}},
                          headers={"Accept": "application/json, text/event-stream"}, timeout=30)
         for line in r.text.splitlines():
@@ -173,6 +175,10 @@ def main() -> None:
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--stop-below-balance", type=float, default=0.0,
                     help="stop (keeping the cache) when prepaid credits fall below this amount")
+    ap.add_argument("--offline", action="store_true",
+                    help="no API calls: build results from cached lookups and timelines only")
+    ap.add_argument("--exclude-replies", action="store_true",
+                    help="fetch original posts only (pay-per-use bills per post; replies are most of a heavy poster's volume)")
     args = ap.parse_args()
 
     token = os.environ.get("X_BEARER_TOKEN")
@@ -209,13 +215,20 @@ def main() -> None:
 
     cache = Path(args.cache)
     cache.mkdir(parents=True, exist_ok=True)
-    s = requests.Session()
-    s.headers.update({"User-Agent": "token2049-venue-finder/1.0"})
-    if token:
-        s.headers["Authorization"] = f"Bearer {token}"
-
-    users = resolve_users(s, handles, cache / "users.json")
+    if args.offline:
+        s = None
+        users_file = cache / "users.json"
+        users = json.loads(users_file.read_text()) if users_file.exists() else {}
+        print(f"offline: {len(users)} cached lookups, {len(list(cache.glob('tl_*.json')))} cached timelines",
+              file=sys.stderr)
+    else:
+        s = requests.Session()
+        s.headers.update({"User-Agent": "token2049-venue-finder/1.0"})
+        if token:
+            s.headers["Authorization"] = f"Bearer {token}"
+        users = resolve_users(s, handles, cache / "users.json")
     now = datetime.now(timezone.utc) - timedelta(seconds=30)
+    exclude = "retweets,replies" if args.exclude_replies else "retweets"
 
     per_event: dict[str, dict] = {}
     for e in hidden:
@@ -226,11 +239,12 @@ def main() -> None:
             "handles_checked": [], "posts": [],
         }
 
-    if args.stop_below_balance:
+    if args.stop_below_balance and s is not None:
         print(f"  prepaid balance at start: {check_balance(s)}", file=sys.stderr)
 
+    skipped = 0
     for i, h in enumerate(handles, 1):
-        if args.stop_below_balance and i % 10 == 0:
+        if args.stop_below_balance and s is not None and i % 10 == 0:
             bal = check_balance(s)
             if bal is not None and bal < args.stop_below_balance:
                 print(f"  balance {bal:.2f} below floor {args.stop_below_balance}; stopping after {i - 1} handles",
@@ -238,10 +252,17 @@ def main() -> None:
                 break
         u = users.get(h) or {}
         if not u.get("id"):
-            print(f"[{i}/{len(handles)}] @{h}: not found on X", file=sys.stderr)
+            if s is not None or h in users:
+                print(f"[{i}/{len(handles)}] @{h}: not found on X", file=sys.stderr)
+            else:
+                skipped += 1
             continue
         start, end = windows[h]
-        tweets = fetch_timeline(s, u["id"], start, min(end, now), args.max_pages, cache / f"tl_{u['id']}.json")
+        tweets = fetch_timeline(s, u["id"], start, min(end, now), args.max_pages,
+                                cache / f"tl_{u['id']}.json", exclude)
+        if tweets is None:
+            skipped += 1
+            continue
         kept = 0
         for e in by_handle[h]:
             key = e.get("event_api_id") or e.get("calendar_entry_id")
@@ -265,8 +286,11 @@ def main() -> None:
                 })
                 kept += 1
         print(f"[{i}/{len(handles)}] @{h}: {len(tweets)} posts in window, {kept} matched", file=sys.stderr)
-        time.sleep(args.delay)
+        if s is not None:
+            time.sleep(args.delay)
 
+    if skipped:
+        print(f"  {skipped} handles not in cache (offline), left unchecked", file=sys.stderr)
     results = list(per_event.values())
     for rec in results:
         rec["posts"].sort(key=lambda p: (-(p["venue_hint"] or p["postcode"]), -p["keyword_overlap"], -(p["likes"] or 0)))
